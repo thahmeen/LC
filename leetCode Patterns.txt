@@ -1,0 +1,96 @@
+ARRAYS:
+->Simulation(imitating the process -- nums[nums[0]],...)
+
+build your own test cases!
+matrix and simulaation1 and prefix sum and newgative marking
+
+try not to use old for loop, instead use forEach
+
+BIT MANIPULATION: 
+n = 32;
+String bits = Integer.toBinaryString(n);
+String bits = Integer.toBinaryString(32);
+bits = 100000
+
+TWO POINTERS:
+USED FOR SEARCHING
+two pointers has a slow and a fast pointer.
+ideally two pointers work along with sorted array, strings, linkedlist
+Not all two-pointer problems require sorting, though.
+used in array, linkedlist and string data structure
+two pointers can work in same direction/opposite direction
+
+STRINGS
+-> str.charAt(i) is case sensitive method
+
+-> str.isLetterOrDigit(str.charAt(i)) method returns true if the char is either letter or digit
+
+-> StringBuilder str = new StringBuilder();
+StringBuilder methods -> sr.append(srt.charAt(i)) -> this method adds the char to the newly created string -> after adding all char, we need to do str.toString(), to actually return in string, otherwise it would have been a characters appended together 
+str.reverse().toString() is used to reverse the string
+str.equals(some another string variable)
+
+-> String str = "hello";
+str.substring(beginIndex/Inclusive, endIndex/Exclusive)
+str.substring(beginIndex) => this will consider the endIndex, all the way till last character in the str
+
+-> str.indexOf(character) returns the first occurence of the character, otherwise returns -1
+
+-> to append a string to stringBuilder is done using the method below
+str.append(strb);
+
+-> STRING Methods: str.equals(str1)
+str.toCharArray();
+TRIM method: str = "  mona is learning to code    ";
+str.trim() = "mona is learning to code";
+to replace 2 or more spaces between the string, then we can use regex expression
+str = str.replaceAll("\\s{2,}", " ");
+ s = s.replaceAll("\\s{2,}"," ");
+
+one or more qhite space character removal 
+String trimmed = s.trim();
+trimmed.split("\\s+")
+
+
+SPLIT method:
+str = "this is a sentence"
+String strArray[] = str.split(" ");
+strArray[] now looks like this ["this", "is", "a", "sentence"];
+
+LASTINDEXOF method:
+lastIndexOf method returns the last index of anything you want, for ex:
+s= "Hello World"
+int res = s.lastIndexOf(" ") ;
+res will have 4
+
+->StringBuilder Methods:
+strb.reverse();
+you cannot do str.reverse(), becz reverse is a method of stringBuilder and not String class
+
+*to convert int to string use Integer.toString(i);
+Integer.valueOf(i);
+
+
+GOOD LOGIC
+To sort a string, convert taht to charArray then use Arrays.sort(ch[]);
+ex; String s = "mons";
+char[] ch = s.toCharArray();
+Arrays.sort(ch);
+o/p: ['m', 'n', 'o', 's'];
+
+to find number of digits what you do is,, convert the integer to string and calculate its length
+int n = 33l;
+String str = Integer.toString(n);
+if(str.length % 2 ==0) count++; // even nm of digit
+
+PRIME NUMBER OR PRIME FACTOR
+for this type of questions just remember to keep dividing by the given number
+
+to SORT in reverseORder
+List<Integer> list = new ArrayList<>();
+        for(int i : nums){
+            list.add(i);
+        }
+       Collections.sort(list, Collections.reverseOrder()); 
+
+
