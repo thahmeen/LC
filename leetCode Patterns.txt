@@ -13,7 +13,7 @@ String bits = Integer.toBinaryString(32);
 bits = 100000
 
 TWO POINTERS:
-USED FOR SEARCHING.
+USED FOR SEARCHING
 two pointers has a slow and a fast pointer.
 ideally two pointers work along with sorted array, strings, linkedlist
 Not all two-pointer problems require sorting, though.
