@@ -96,4 +96,9 @@ List<Integer> list = new ArrayList<>();
 STRING TO STRING
 -> use Interger.parseInt()
 
+ARRAYS:
+ // long lArr[] = {31, 13, 12, 98, 11}; sorting array from index 1 to 3
+      Arrays.sort(lArr, 1, 3);
+      
+
 
